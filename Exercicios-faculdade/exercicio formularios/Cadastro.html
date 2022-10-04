@@ -9,5 +9,46 @@
 <body>
     <h1>Manutençaõ de usuarios do sistema</h1>
     
+    <form action="#" method="post">
+        <label for="Llogin">Login</label> <br>
+        <input type="text" name="login" id="Llogin">
+
+        <br>
+        <br>
+
+        <label for="Lsenha">Senha</label> <br>
+        <input type="password" name="senha" id="Lsenha">
+        
+        <br>
+        <br>
+
+        <label for="Lstatus">Status</label> <br>
+        <select name="status" id="Lstatus">
+            <option value="ativo">Ativo</option>
+            <option value="inativo">Inativo</option>
+        </select>
+        
+        <br>
+        <br>
+
+        Tipo <br>
+        <input type="radio" name="tipodepessoa" id="tipodepessoa" value="tec">Tecnico
+        <input type="radio" name="tipodepessoa" id="tipodepessoa" value="prof">Professor
+        <input type="radio" name="tipodepessoa" id="tipodepessoa" value="alu">Aluno
+        
+        <br>
+        <br>
+
+        <label for="Ldata">Data de criação</label> <br>
+        <input type="date" name="data" id="Ldata">
+        
+        <br>
+        <br>
+
+        <label for="Lobs">Observação</label> <br>
+        <textarea name="observacao" id="Lobs" cols="30" rows="10"></textarea>
+
+        
+    </form>
 </body>
 </html>
