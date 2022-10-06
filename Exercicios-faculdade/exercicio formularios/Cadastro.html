@@ -32,23 +32,68 @@
         <br>
 
         Tipo <br>
-        <input type="radio" name="tipodepessoa" id="tipodepessoa" value="tec">Tecnico
-        <input type="radio" name="tipodepessoa" id="tipodepessoa" value="prof">Professor
-        <input type="radio" name="tipodepessoa" id="tipodepessoa" value="alu">Aluno
+        <input type="radio" name="tipodepessoa" id="Ltipopessoatec" value="tec">
+        <label for="Ltipopessoatec">Tecnico</label>
+
+        <input type="radio" name="tipodepessoa" id="Ltipopessoaprof" value="prof">
+        <label for="Ltipopessoaprof">Professor</label>
+
+        <input type="radio" name="tipodepessoa" id="Ltipopessoaalu" value="alu">
+        <label for="Ltipopessoaalu">Aluno</label>
         
         <br>
         <br>
 
         <label for="Ldata">Data de criação</label> <br>
         <input type="date" name="data" id="Ldata">
+
+        <br>
+        <br>
+
+        Perfil <br>
+        <input type="radio" name="perfilpessoa" id="Lperfilcon" value="Convidado">
+        <label for="Lperfilcon">Convidado</label>
+
+        <input type="radio" name="perfilpessoa" id="Lperfiladm" value="adm">
+        <label for="Lperfiladm">Administrador</label>
+
         
         <br>
         <br>
 
         <label for="Lobs">Observação</label> <br>
-        <textarea name="observacao" id="Lobs" cols="30" rows="10"></textarea>
+        <textarea name="observacao" id="Lobs" cols="50" rows="10"></textarea>
 
         
+        <br>
+        <br>
+
+        <input type="checkbox" name="compras" id="Lcompras">
+        <label for="Lcompras">Compras</label>
+
+        <input type="checkbox" name="biblioteca" id="Lbiblioteca">
+        <label for="Lbiblioteca">Biblioteca</label>
+
+        <input type="checkbox" name="academico" id="Lacademico">
+        <label for="Lacademico">Academico</label>
+
+        
+        <br>
+        <br>
+
+        <input type="checkbox" name="documentacao" id="Ldocumentacao">
+        <label for="Ldocumentacao">Documentação</label>
+
+        <input type="checkbox" name="rh" id="Lrh">
+        <label for="Lrh">Recursos humanos</label>
+
+        <br>
+        <br>
+
+        <button type="submit">Cadastrar</button>
+
+        <button type="reset">Excluir</button>
+
     </form>
 </body>
 </html>
