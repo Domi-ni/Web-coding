@@ -5,6 +5,19 @@
     
 }
 
+body {
+    background-image:linear-gradient( #6393F2, #BDD4F2)
+}
+
+main{
+
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    background-color: #fff;
+    
+}
+
 p {
     text-align: justify;
 }
