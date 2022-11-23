@@ -10,20 +10,30 @@ body {
 }
 
 main{
-
-    width: 60%;
-    padding: 10px
+    
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #41609ca8;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    
     
 }
 
-h1 {
+h1{
+    color: #ffaf40ea;
+    text-align: center;
+    text-shadow: 1px 1px 3px #c2853094;
 
- color: #047518;
-}
-a{
-    color: black;
 }
 
 p {
+    color: #337AA6;
     text-align: justify;
+}
+
+a{
+    color: black;
+
 }
