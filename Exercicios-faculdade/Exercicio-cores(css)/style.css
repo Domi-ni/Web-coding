@@ -10,14 +10,32 @@ body {
 }
 
 main{
-
+    
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #41609ca8;
     width: 600px;
     padding: 10px;
     margin: auto;
-    background-color: #fff;
+    
     
 }
 
+h1{
+    color: #ffaf40ea;
+    text-align: center;
+    text-shadow: 1px 1px 3px #c2853094;
+
+}
+
+h2{
+
+    color: #337AA6; /*#f09618; (considerar cor alternativa)*/
+}
+
+h3{
+    color: #ffaf40ea;
+}
 p {
     text-align: justify;
 }
