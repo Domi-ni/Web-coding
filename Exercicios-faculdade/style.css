@@ -45,7 +45,16 @@ p {
     text-align: justify;
 }
 
-a{
-    color: black;
 
+a{
+    color: #9fbdcf;
+
+}
+
+a:visited{
+    color: #778b97;
+}
+
+a:hover {
+    font-weight: bold;
 }
